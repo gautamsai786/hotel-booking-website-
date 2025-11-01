@@ -1,0 +1,112 @@
+
+ 
+ body {
+      margin: 0;
+      box-sizing: content-box;
+      padding: 0;
+      text-decoration: none;
+
+      font-family: Arial, sans-serif;
+      background: white;
+      color: #1a57b8;
+      
+    }
+    .secfstwid{
+        width: 1400px;
+        margin: auto;
+    }
+
+
+    .fst-sec {
+      background-color: #1a57b8;
+      padding: 2rem 0;
+      text-align: center;
+      color: white;
+      width: 100%;
+      margin: auto;
+    }
+    .fst-sec h1 {
+      font-weight: 600;
+      font-size: 24px;
+      background-color: rgba(255, 255, 255, 0.3);
+      display: inline-block;
+      padding: 0 10px;
+      margin-bottom: 5px;
+    }
+    .fst-sec nav {
+      font-size: 10px;
+      color: white;
+    }
+    .fst-sec nav span {
+      margin: 0 5px;
+    }
+    .main-image {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 0;
+      position: relative;
+    }
+   
+
+    .text-overlay b {
+      font-weight: 700;
+    }
+    .text-overlay small {
+      font-weight: 400;
+      font-size: 0.9rem;
+      color: #bdbdbd;
+      font-family: Arial, Helvetica, sans-serif;
+      display: block;
+      margin-top: 7px;
+    }
+    .content {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0 10px 2rem 10px;
+    }
+    .content h2 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .content p {
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .buttons {
+      display: inline-flex;
+      gap: 10px;
+    }
+    .btn {
+      font-size: 13px;
+      padding: 10px 18px;
+      border-radius: 3px;
+      cursor: pointer;
+      border: 1px solid #1a57b8;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: 500;
+    }
+    .btn-primary {
+      background-color: #1a57b8;
+      color: white;
+      border: 1px solid #1a57b8;
+    }
+    
+    .btn-secondary {
+      background-color: white;
+      color: #1a57b8;
+      border: 1px solid #1a57b8;
+    }
+  
+
+    .third-sec{
+        width: 100%;
+
+    }
+
+
+    
