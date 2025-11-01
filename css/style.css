@@ -1,5 +1,12 @@
 
  
+ *{
+    /* border: 2px solid black; */
+    list-style: none;
+    margin: 0;
+    padding:0;
+
+ }
  body {
       margin: 0;
       box-sizing: content-box;
@@ -104,9 +111,148 @@
   
 
     .third-sec{
+        width: 1400px;
+        margin: 20px auto;
+        display: flex;
+        
+
+
+
+    }
+    .trdsec-1{
+        width: 50%;
+
+        
+    }
+    .trds1-first{
+        width: 100%;
+    }
+    .trds1-first h1{
+        height: 40px;
+        color:skyblue;
+        margin: 10px 0px;
+        font-weight: bold;
+    }
+    .trds1-first p{
+         height: 250px;
+         color: black;
+         margin: 10px 0px;
+    }
+    .trds1-second button{
+        width: 200px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 15px ;
+        background: lightblue;
+    }
+    .trdsec-2 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .trdsec-2 img{
+        width: 70%;
+        
+        
+    }
+    .fourth-sec{
+  
+        width: 100%;
+        
+
+    }
+    .frtsec-fst{
+        width: 1400px;
+        margin:20px auto;
+      
+    }
+    .frtsec-fst p{
+        color: black;
+        padding: 10px 0px;
+    }
+    .frtsec-sec{
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        margin:10px auto;
+    }
+    .frtss-child1{
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .frtss-child2 {
+        width: 50%;
+        
+    }
+    .frtss-child2 h1{
+        font-size: 40px;
+        font-weight: bold;
+        
+    }
+    .frtss-child2 p{
+        color: black;
         width: 100%;
 
     }
+    .frtsec-third{
+        width: 1400px;
+        margin:30px auto;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+
+    }
+    .frtsec-fourth{
+        width: 1400px;
+        margin: 40px auto;
+
+
+    }
+     .frtsec-fourth h1{
+        width: 100%;
+        margin: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: skyblue;
+
+    }
+
+    .frtsec-fourth p{
+        width: 100%;
+        margin: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:  black;
+
+    }
+    .fsf-1{
+        width: 1400px;
+        margin: 20px auto;
+        display: flex;
+        gap: 10px;
+    }
+    .fsf1-1 {
+       text-align: left;
+    }
+    
+    
+ 
 
 
     
+
+
+
+
+
+
+     
+
+
+
